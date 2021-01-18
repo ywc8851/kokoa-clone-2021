@@ -1,0 +1,41 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 25px;
+}
+
+.screen-header__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+.screen-header__icons span {
+  margin-left: 25px;
+}
+
+.screen-header__cog {
+  position: relative;
+}
+
+.screen-header__reddot {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  display: flex;
+  border-radius: 3px;
+  position: absolute;
+  right: -7px;
+  bottom: 20px;
+}
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.screen-header__icons .fa-cog:hover {
+  animation: rotateCog 2s linear infinite;
+  /* linear은 속도유지 */
+}
