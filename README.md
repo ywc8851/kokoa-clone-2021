@@ -1,3 +1,3 @@
-# Kokoa Clone 2021 Update
+# 카카오톡 모바일 화면 웹으로 클론코딩하기
 
-HTML & CSS is so cool!
+
